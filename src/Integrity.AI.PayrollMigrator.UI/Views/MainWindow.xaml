@@ -1,0 +1,13 @@
+<Window x:Class="Integrity.AI.PayrollMigrator.UI.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Payroll Migrator" Height="350" Width="525">
+    <TabControl>
+        <TabItem Header="Edit JSON">
+            <TextBox Text="{Binding Json, UpdateSourceTrigger=PropertyChanged}" AcceptsReturn="True"/>
+        </TabItem>
+        <TabItem Header="Result">
+            <TextBox Text="{Binding Result}" IsReadOnly="True"/>
+        </TabItem>
+    </TabControl>
+</Window>

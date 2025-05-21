@@ -30,6 +30,7 @@ This project supports payroll data migration from Microsoft GP to Business Centr
 
 2. **Proceed Step-by-Step**:
    - Feed Claude one prompt file at a time (e.g., `01-Prompt-1.md`, then `01-Prompt-2.md`).
+
    - Apply generated code to your local environment or repo.
 
 3. **Track Progress**:
@@ -37,6 +38,10 @@ This project supports payroll data migration from Microsoft GP to Business Centr
 
 4. **Testing**:
    - After code generation, run all tests described in `06-Tests-Prompt-*`.
+## Project Setup
+
+The repository includes a .NET 7 solution with multiple projects under `src/`. Open `Integrity.AI.PayrollMigrator.sln` in Visual Studio or VS Code. Build and run tests in `tests/` using `dotnet test`.
+
 
 ---
 

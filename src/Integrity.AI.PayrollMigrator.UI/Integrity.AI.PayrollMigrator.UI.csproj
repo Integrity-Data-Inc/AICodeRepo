@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Integrity.AI.PayrollMigrator.Services/Integrity.AI.PayrollMigrator.Services.csproj" />
+    <ProjectReference Include="../Integrity.AI.PayrollMigrator.Models/Integrity.AI.PayrollMigrator.Models.csproj" />
+  </ItemGroup>
+</Project>
