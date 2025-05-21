@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Integrity.AI.PayrollMigrator.Models/Integrity.AI.PayrollMigrator.Models.csproj" />
+    <ProjectReference Include="../Integrity.AI.PayrollMigrator.Storage/Integrity.AI.PayrollMigrator.Storage.csproj" />
+  </ItemGroup>
+</Project>
